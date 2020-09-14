@@ -1,0 +1,122 @@
+h1 {
+  outline: solid rgb(0, 0, 0) 1px;
+}
+
+div:first-child{
+  background-color: rgb(211, 211, 211);
+}
+
+div:nth-child(2){
+  background-color: rgb(224, 224, 224);
+}
+
+div:nth-child(3){
+  background-color: rgb(186, 186, 186);
+}
+
+div:nth-child(4){
+  background-color: rgb(148, 148, 148);
+}
+
+div:nth-child(5){
+  background-color: rgb(84, 84, 84);
+}
+
+div:nth-child(6){
+  background-color: rgb(211, 211, 211);
+}
+
+div:nth-child(7){
+  background-color: rgb(211, 211, 211);
+}
+
+div:nth-child(8){
+  background-color: rgb(224, 224, 224);
+}
+
+div:last-of-type{
+  background-color: rgb(186, 186, 186);
+}
+
+
+
+@media only screen and (min-width: 725px) and (max-width: 1079px) {
+
+div:first-child{
+  background-color: rgb(58, 214, 19);
+}
+
+div:nth-child(2){
+  background-color: rgb(24, 87, 8);
+}
+
+div:nth-child(3){
+  background-color: rgb(41, 150, 14);
+}
+
+div:nth-child(4){
+  background-color: rgb(51, 189, 17);
+}
+
+div:nth-child(5){
+  background-color: rgb(62, 227, 20);
+}
+
+div:nth-child(6){
+  background-color: rgb(58, 214, 19);
+}
+
+div:nth-child(7){
+  background-color: rgb(24, 87, 8);
+}
+
+div:nth-child(8){
+  background-color: rgb(41, 150, 14);
+}
+
+div:last-of-type{
+  background-color: rgb(51, 189, 17);
+}
+
+}
+
+
+
+@media only screen and (min-width: 1080px){
+  
+  div:first-child{
+    background-color: rgb(123, 25, 214);
+  }
+  
+  div:nth-child(2){
+    background-color: rgb(50, 10, 87);
+  }
+  
+  div:nth-child(3){
+    background-color: rgb(86, 18, 150);
+  }
+  
+  div:nth-child(4){
+    background-color: rgb(108, 23, 189);
+  }
+  
+  div:nth-child(5){
+    background-color: rgb(130, 27, 227);
+  }
+  
+  div:nth-child(6){
+    background-color: rgb(123, 25, 214);
+  }
+  
+  div:nth-child(7){
+    background-color: rgb(50, 10, 87);
+  }
+  
+  div:nth-child(8){
+    background-color: rgb(86, 18, 150);
+  }
+  
+  div:last-of-type{
+    background-color: rgb(108, 23, 189);
+  }
+}
